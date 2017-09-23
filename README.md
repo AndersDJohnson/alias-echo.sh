@@ -1,6 +1,6 @@
 # alias-echo.sh
 
-Like `alias`, but first `echo`s the underlying command before running.
+Like shell's `alias`, but first `echo`s the underlying command before running.
 
 Useful for learning, so you don't look like an idiot when you stray from your own shell.
 
@@ -27,6 +27,8 @@ If you want to temporarily disable `echo`ing, e.g., to pipe output, set a value 
 ```sh
 NO_ALIAS_ECHO=1 grin var ~/code | whatever
 ```
+
+Known to work in Bash and zsh.
 
 ## Used by
 
