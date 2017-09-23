@@ -28,7 +28,7 @@ If you want to temporarily disable `echo`ing, e.g., to pipe output, set a value 
 NO_ALIAS_ECHO=1 grin var ~/code | whatever
 ```
 
-Known to work in Bash and zsh.
+Known to work in Bash and Zsh.
 
 ## Used by
 
